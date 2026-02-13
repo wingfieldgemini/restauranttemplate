@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember & Vine — Fine Dining Restaurant</title>
+  <meta name="description" content="Ember & Vine — Where fire meets the vine. An unforgettable fine dining experience with seasonal ingredients and craft cocktails.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Ember <span>&</span> Vine</a>
+      <ul class="navbar__links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-menu__links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <p class="hero__label">Est. 2019 · Fine Dining</p>
+      <h1 class="hero__title">Where <em>Fire</em> Meets the <em>Vine</em></h1>
+      <p class="hero__subtitle">An intimate culinary journey celebrating open-flame cooking, handpicked seasonal ingredients, and wines from the world's most storied vineyards.</p>
+      <div class="hero__buttons">
+        <a href="reservations.html" class="btn btn--primary">Reserve a Table</a>
+        <a href="menu.html" class="btn btn--secondary">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Dishes -->
+  <section class="featured section-padding">
+    <div class="container text-center">
+      <span class="section-label reveal">From Our Kitchen</span>
+      <h2 class="section-title reveal">Signature Creations</h2>
+      <hr class="separator reveal">
+      <p class="section-subtitle reveal">Each dish tells a story — of the land, the season, and the hands that crafted it.</p>
+
+      <div class="featured__grid">
+        <article class="featured__card reveal">
+          <div class="featured__card-img">
+            <div class="placeholder placeholder--1">Wagyu Tartare</div>
+          </div>
+          <div class="featured__card-body">
+            <h3 class="featured__card-title">Wagyu Tartare</h3>
+            <p class="featured__card-text">Hand-cut A5 wagyu with quail egg, black truffle, and sourdough crisps. A delicate balance of richness and refinement.</p>
+          </div>
+        </article>
+        <article class="featured__card reveal">
+          <div class="featured__card-img">
+            <div class="placeholder placeholder--2">Flame-Kissed Lamb</div>
+          </div>
+          <div class="featured__card-body">
+            <h3 class="featured__card-title">Flame-Kissed Lamb</h3>
+            <p class="featured__card-text">Slow-roasted rack of lamb with rosemary jus, charred heritage carrots, and pomme purée.</p>
+          </div>
+        </article>
+        <article class="featured__card reveal">
+          <div class="featured__card-img">
+            <div class="placeholder placeholder--3">Dark Forest Pavlova</div>
+          </div>
+          <div class="featured__card-body">
+            <h3 class="featured__card-title">Dark Forest Pavlova</h3>
+            <p class="featured__card-text">Crisp meringue layered with dark chocolate mousse, blackberry compote, and edible flowers.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="story section-padding">
+    <div class="container">
+      <div class="story__wrapper">
+        <div class="story__image reveal-left">Interior Ambiance</div>
+        <div class="story__content reveal-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Rooted in Tradition, Lit by Fire</h2>
+          <hr class="separator" style="margin-left:0;">
+          <p class="story__text">Ember & Vine was born from a simple belief: that the best meals are cooked over open flames and shared with people you love. Nestled in the heart of the city, our restaurant brings together time-honoured techniques and bold, modern flavours.</p>
+          <p class="story__text">Every ingredient is sourced from farms and purveyors who share our commitment to quality and sustainability. From our wood-fired kitchen to your table, each plate is a celebration of craft.</p>
+          <a href="about.html" class="btn btn--outline">Our Full Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section section-padding">
+    <div class="container">
+      <div class="cta-section__content reveal-scale">
+        <span class="section-label" style="color: var(--cream);">Join Us</span>
+        <h2 class="cta-section__title">Your Table Awaits</h2>
+        <p class="cta-section__text">Whether it's a romantic evening, a celebration with friends, or a quiet meal with family — we'd love to welcome you.</p>
+        <a href="reservations.html" class="btn btn--primary">Make a Reservation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Ember <span>&</span> Vine</h3>
+          <p>Where fire meets the vine. An intimate fine dining experience celebrating open-flame cooking and world-class wines.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigate</h4>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Hours</h4>
+          <div class="footer__contact-item"><span>🕐</span> Tue–Thu: 5:30 PM – 10:00 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Fri–Sat: 5:00 PM – 11:00 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Sun: 5:00 PM – 9:30 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Mon: Closed</div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><span>📍</span> 42 Vine Street, London EC1A 2BN</div>
+          <div class="footer__contact-item"><span>📞</span> +44 20 7946 0958</div>
+          <div class="footer__contact-item"><span>✉️</span> hello@emberandvine.com</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Ember & Vine. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

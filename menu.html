@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Ember & Vine</title>
+  <meta name="description" content="Explore the Ember & Vine menu — seasonal starters, flame-kissed mains, artisan desserts, and curated drinks.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Ember <span>&</span> Vine</a>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu__links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__content">
+      <span class="section-label" style="color: var(--cream);">Seasonal Selection</span>
+      <h1 class="page-hero__title">Our Menu</h1>
+      <hr class="separator" style="background: var(--cream);">
+      <p class="page-hero__subtitle">Crafted with fire, served with love. Our menu evolves with the seasons.</p>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="menu-section section-padding">
+    <div class="container container--narrow">
+
+      <!-- Starters -->
+      <div class="menu-category reveal">
+        <h2 class="menu-category__title">Starters</h2>
+        <p class="menu-category__subtitle">Light beginnings to awaken the palate</p>
+        <hr class="separator">
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Wagyu Tartare <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Hand-cut A5 wagyu, quail egg yolk, shaved black truffle, sourdough crisps</p>
+            </div>
+            <span class="menu-item__price">£24</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Burrata & Heritage Tomatoes <span class="dietary-icon dietary-icon--v">V</span> <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Creamy burrata, smoked tomato consommé, basil oil, aged balsamic</p>
+            </div>
+            <span class="menu-item__price">£18</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Oak-Smoked Salmon <span class="dietary-icon dietary-icon--gf">GF</span> <span class="dietary-icon dietary-icon--df">DF</span></h3>
+              <p class="menu-item__desc">House-smoked Scottish salmon, pickled cucumber, horseradish cream, dill</p>
+            </div>
+            <span class="menu-item__price">£19</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Wild Mushroom Velouté <span class="dietary-icon dietary-icon--vg">VG</span> <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Porcini and chanterelle soup, truffle oil, crispy sage, toasted hazelnuts</p>
+            </div>
+            <span class="menu-item__price">£16</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="menu-category reveal">
+        <h2 class="menu-category__title">Mains</h2>
+        <p class="menu-category__subtitle">Fire-kissed centrepieces for the table</p>
+        <hr class="separator">
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Dry-Aged Ribeye <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">45-day aged British ribeye, bone marrow butter, charred onion, triple-cooked chips</p>
+            </div>
+            <span class="menu-item__price">£46</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Flame-Kissed Lamb Rack <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Herb-crusted rack of lamb, rosemary jus, charred heritage carrots, pomme purée</p>
+            </div>
+            <span class="menu-item__price">£42</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Pan-Roasted Sea Bass <span class="dietary-icon dietary-icon--gf">GF</span> <span class="dietary-icon dietary-icon--df">DF</span></h3>
+              <p class="menu-item__desc">Line-caught sea bass, saffron fennel broth, samphire, cherry tomatoes</p>
+            </div>
+            <span class="menu-item__price">£38</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Lobster Tagliatelle</h3>
+              <p class="menu-item__desc">Fresh pasta, half lobster, bisque sauce, chilli, garlic, lemon zest</p>
+            </div>
+            <span class="menu-item__price">£44</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Ember-Roasted Cauliflower <span class="dietary-icon dietary-icon--vg">VG</span> <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Whole roasted cauliflower, tahini, pomegranate, smoked almonds, herb chimichurri</p>
+            </div>
+            <span class="menu-item__price">£28</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-category reveal">
+        <h2 class="menu-category__title">Desserts</h2>
+        <p class="menu-category__subtitle">Sweet finales crafted by Chef Sofia</p>
+        <hr class="separator">
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Dark Forest Pavlova <span class="dietary-icon dietary-icon--gf">GF</span></h3>
+              <p class="menu-item__desc">Crisp meringue, dark chocolate mousse, blackberry compote, edible flowers</p>
+            </div>
+            <span class="menu-item__price">£16</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Smoked Chocolate Fondant</h3>
+              <p class="menu-item__desc">Valrhona chocolate, oak-smoked ganache centre, vanilla bean ice cream</p>
+            </div>
+            <span class="menu-item__price">£18</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Lemon Posset <span class="dietary-icon dietary-icon--gf">GF</span> <span class="dietary-icon dietary-icon--v">V</span></h3>
+              <p class="menu-item__desc">Silky lemon cream, raspberry sorbet, shortbread crumble, micro mint</p>
+            </div>
+            <span class="menu-item__price">£14</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Artisan Cheese Board <span class="dietary-icon dietary-icon--v">V</span></h3>
+              <p class="menu-item__desc">Selection of British and French cheeses, fig chutney, honeycomb, oatcakes</p>
+            </div>
+            <span class="menu-item__price">£20</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-category reveal">
+        <h2 class="menu-category__title">Drinks</h2>
+        <p class="menu-category__subtitle">Handcrafted cocktails and curated wines</p>
+        <hr class="separator">
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">The Ember Old Fashioned</h3>
+              <p class="menu-item__desc">Woodford Reserve, smoked maple syrup, Angostura bitters, charred orange</p>
+            </div>
+            <span class="menu-item__price">£16</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Vine Garden Spritz</h3>
+              <p class="menu-item__desc">Elderflower gin, prosecco, cucumber, basil, tonic</p>
+            </div>
+            <span class="menu-item__price">£14</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Sommelier's Red — Glass</h3>
+              <p class="menu-item__desc">Rotating selection chosen by Elena. Ask your server for tonight's pour.</p>
+            </div>
+            <span class="menu-item__price">£12</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Non-Alcoholic Pairing <span class="dietary-icon dietary-icon--vg">VG</span></h3>
+              <p class="menu-item__desc">Three-course botanical pairing — kombucha, shrubs, and house-made sodas</p>
+            </div>
+            <span class="menu-item__price">£22</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="menu-legend reveal">
+        <div class="menu-legend__item"><span class="dietary-icon dietary-icon--v">V</span> Vegetarian</div>
+        <div class="menu-legend__item"><span class="dietary-icon dietary-icon--vg">VG</span> Vegan</div>
+        <div class="menu-legend__item"><span class="dietary-icon dietary-icon--gf">GF</span> Gluten Free</div>
+        <div class="menu-legend__item"><span class="dietary-icon dietary-icon--df">DF</span> Dairy Free</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Ember <span>&</span> Vine</h3>
+          <p>Where fire meets the vine. An intimate fine dining experience celebrating open-flame cooking and world-class wines.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigate</h4>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Hours</h4>
+          <div class="footer__contact-item"><span>🕐</span> Tue–Thu: 5:30 PM – 10:00 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Fri–Sat: 5:00 PM – 11:00 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Sun: 5:00 PM – 9:30 PM</div>
+          <div class="footer__contact-item"><span>🕐</span> Mon: Closed</div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><span>📍</span> 42 Vine Street, London EC1A 2BN</div>
+          <div class="footer__contact-item"><span>📞</span> +44 20 7946 0958</div>
+          <div class="footer__contact-item"><span>✉️</span> hello@emberandvine.com</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Ember & Vine. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
