@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: var(--deep-green);
+  background: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=1080&fit=crop) center/cover;
   overflow: hidden;
 }
 
